@@ -1,22 +1,11 @@
 import React, { useEffect, useState } from "react";
 import ReactDom from "react-dom";
 import { Button, Input, Typography, Space, Row, Col } from "antd";
-import { createGlobalStyle } from "styled-components";
 // import ReactMarkdown from "react-markdown";
 // import { CopyOutlined, SendOutlined } from "@ant-design/icons";
 // import { Space, Input, Typography } from "@arco-design/web-react";
 import { chatGPT } from "../api";
-import "@arco-design/web-react/dist/css/arco.css";
 import "../chat-gpt.css";
-
-const GlobalStyle = createGlobalStyle`
-  html, body {
-    height: 100%;
-    overflow: scroll;
-    margin: 5px;
-    background: black;
-  }
-`;
 interface chatList {
   id: string;
   question: string;
