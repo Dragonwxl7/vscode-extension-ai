@@ -1,0 +1,132 @@
+.chat-gpt-main {
+  width: 100%;
+  height: 100%;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  /* background: #e5f2f5; */
+  background: #35333c;
+  
+}
+.chat-left {
+  width: 28px;
+  height: 28px;
+}
+.chatListView {
+  margin: 0 10px;
+  max-height: 90%;
+  overflow-y: auto;
+}
+.chatList {
+  width: 100vw;
+  max-width: 1000px;
+}
+.chatLi {
+  /* color: #333; */
+  color: white;
+}
+.chatLiContent {
+  padding: 15px 0;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+.chatLiContentDiv {
+  width: 100%;
+  padding: 0 10px;
+}
+.contentDiv {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: justify;
+  margin: 0 15px;
+  font-size: 14px;
+  /* color: #333; */
+  color: white;
+  overflow-x: auto;
+  display: inline-block;
+}
+.questionContent {
+  white-space: pre-wrap;
+}
+.answerChatLiContent {
+  /* background: #f7f7f8; */
+  background: #5e616d;
+  border-top: 1px solid #47484c;
+  border-bottom: 1px solid #47484c;
+}
+.answerContent {
+  /* color: #333; */
+  color: white;
+}
+.fucView {
+  /* position: absolute; */
+  margin: 10px 20px;
+  /* bottom: 20px; */
+  /* width: 100%; */
+  /* padding: 0 20px; */
+  /* z-index: 99999; */
+}
+.formView {
+  width: 100vw;
+  max-width: 800px;
+  min-width: 200px;
+  max-height: 10%;
+  min-height: 48px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  padding: 0 16px;
+  border-radius: 5px;
+  /* background: #fff; */
+  background: #5e616d;
+}
+.footerInput {
+  /* background-color: #fff; */
+  background: #5e616d;
+  /* color: #333; */
+  color: white;
+  outline: none;
+  border: unset;
+  height: 100%;
+}
+.footerInput::placeholder {
+  color: #606266 !important;
+}
+.footerInput:focus {
+  border-color: unset !important;
+  box-shadow: none !important;
+}
+.footerInput:hover {
+  border-color: unset !important;
+}
+.flex {
+  display: flex;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.alignCenter {
+  align-items: center;
+}
+.marginTop {
+  margin-top: 20px;
+}
+.cursor-blink {
+  display: inline-block;
+  width: 2px;
+  color: black;
+  font-size: 20px;
+  animation: blink 0.8s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
